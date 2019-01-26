@@ -10,4 +10,9 @@ import Foundation
 
 struct GitHubUser: Decodable {
     let id: Int
+    let login: String
+    let name: String
+    let avatar_url: String
+    let followers: Int
+    let public_repos: Int
 }

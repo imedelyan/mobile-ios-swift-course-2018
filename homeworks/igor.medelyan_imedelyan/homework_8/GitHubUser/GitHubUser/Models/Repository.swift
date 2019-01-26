@@ -10,4 +10,6 @@ import Foundation
 
 struct Repository: Decodable {
     let id: Int
+    let name: String
+    let stargazers_count: Int
 }

@@ -18,6 +18,8 @@
 		45A6907F21FBABA800DD9176 /* Repository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6907E21FBABA800DD9176 /* Repository.swift */; };
 		45A6908321FBAE6F00DD9176 /* GitHubUserAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6908221FBAE6F00DD9176 /* GitHubUserAPI.swift */; };
 		45A6908721FBB07F00DD9176 /* MoyaProvider+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6908621FBB07F00DD9176 /* MoyaProvider+Promise.swift */; };
+		45A6908A21FC54E000DD9176 /* RepoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6908921FC54E000DD9176 /* RepoTableViewCell.swift */; };
+		45A6908C21FC584900DD9176 /* UIImageView+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45A6908B21FC584900DD9176 /* UIImageView+Load.swift */; };
 		76B8AB3650B0E4628677A915 /* Pods_GitHubUser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F31A14826BDF394B83A12071 /* Pods_GitHubUser.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +37,8 @@
 		45A6907E21FBABA800DD9176 /* Repository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Repository.swift; sourceTree = "<group>"; };
 		45A6908221FBAE6F00DD9176 /* GitHubUserAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitHubUserAPI.swift; sourceTree = "<group>"; };
 		45A6908621FBB07F00DD9176 /* MoyaProvider+Promise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MoyaProvider+Promise.swift"; sourceTree = "<group>"; };
+		45A6908921FC54E000DD9176 /* RepoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoTableViewCell.swift; sourceTree = "<group>"; };
+		45A6908B21FC584900DD9176 /* UIImageView+Load.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Load.swift"; sourceTree = "<group>"; };
 		C959F3B7C895D2F27B5157ED /* Pods-GitHubUser.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubUser.release.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubUser/Pods-GitHubUser.release.xcconfig"; sourceTree = "<group>"; };
 		CDD2E81F31FFDD12D0660116 /* Pods-GitHubUser.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GitHubUser.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GitHubUser/Pods-GitHubUser.debug.xcconfig"; sourceTree = "<group>"; };
 		F31A14826BDF394B83A12071 /* Pods_GitHubUser.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GitHubUser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -131,6 +135,7 @@
 		45A6907821FB996100DD9176 /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
+				45A6908821FC54B700DD9176 /* Cells */,
 				45A6907121FB95B100DD9176 /* UserProfileViewController.swift */,
 			);
 			path = UserProfile;
@@ -166,8 +171,17 @@
 			isa = PBXGroup;
 			children = (
 				45A6908621FBB07F00DD9176 /* MoyaProvider+Promise.swift */,
+				45A6908B21FC584900DD9176 /* UIImageView+Load.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		45A6908821FC54B700DD9176 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				45A6908921FC54E000DD9176 /* RepoTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		52837F9729179552697A7233 /* Frameworks */ = {
@@ -315,9 +329,11 @@
 			files = (
 				45A6908721FBB07F00DD9176 /* MoyaProvider+Promise.swift in Sources */,
 				45A6908321FBAE6F00DD9176 /* GitHubUserAPI.swift in Sources */,
+				45A6908C21FC584900DD9176 /* UIImageView+Load.swift in Sources */,
 				45A6907221FB95B100DD9176 /* UserProfileViewController.swift in Sources */,
 				45A6907A21FB998700DD9176 /* SearchUserPresenter.swift in Sources */,
 				45A6907021FB95A000DD9176 /* SearchUserViewController.swift in Sources */,
+				45A6908A21FC54E000DD9176 /* RepoTableViewCell.swift in Sources */,
 				45A6905E21FB943500DD9176 /* AppDelegate.swift in Sources */,
 				45A6907D21FBA15D00DD9176 /* GitHubUser.swift in Sources */,
 				45A6907F21FBABA800DD9176 /* Repository.swift in Sources */,

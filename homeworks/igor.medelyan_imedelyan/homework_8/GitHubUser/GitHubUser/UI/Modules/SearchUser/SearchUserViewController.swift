@@ -55,7 +55,6 @@ class SearchUserViewController: UIViewController {
 }
 
 extension SearchUserViewController: UITextFieldDelegate {
-    
     func textFieldShouldReturn(_ textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return true
